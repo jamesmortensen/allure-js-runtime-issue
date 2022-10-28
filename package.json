@@ -1,0 +1,20 @@
+{
+  "name": "mocha-simple",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter allure-mocha --reporter spec",
+    "report": "allure generate --clean && allure open",
+    "clean": "rm -rf allure-results allure-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "allure-commandline": "^2.18.1",
+    "allure-mocha": "^2.0.0-beta.19",
+    "chai": "^4.3.6",
+    "mocha": "^10.1.0"
+  }
+}
