@@ -11,9 +11,10 @@ const expect = require('chai').expect;
 // const MochaAllure = require('allure-mocha/dist/MochaAllure');
 // console.log(allurejs);
 
-const allure = require("allure-mocha/runtime");
 
 describe('Test', () => {
+
+    const { allure } = require("allure-mocha/runtime");
 
     it('should pass', () => {
         //const allure = new MochaAllure(allureReporter, allureRuntime);
